@@ -4,7 +4,7 @@ This is a code editor with no more lofty goal than bringing offline
 code editing to Chrome.
 
 This is a really young project and not ready for production so take
-care, yeah?
+care, yeah? Also, check out the official [Google code-editor-app](https://github.com/GoogleChrome/code-editor-app).
 
 ## Requirements
 This project depends on these libraries:
