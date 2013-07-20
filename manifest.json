@@ -1,0 +1,18 @@
+{
+  "name": "Codedit",
+  "description": "A basic code editor.",
+  "version": "1",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    {"fileSystem": ["write"]},
+    "storage"
+  ],
+  "icons": {
+    "16": "img/icons/chrome/16.png",
+    "128": "img/icons/chrome/128.png"
+  }
+}
