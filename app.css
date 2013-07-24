@@ -6,14 +6,20 @@ body{
 	margin:0;
 }
 
-.tab{
+.tab-target{
 	display:none;
 }
-.tab.visible{
+.tab-target.visible{
 	display:block;
 }
-.tab.changed{
-	font-weight:bold;
+
+.tab-ele .close:after{
+    content:"x";
+    margin-left:.25em;
+    margin-right:-.5em;
+}
+.tab-ele.changed .close:after{
+	content:"\2022"
 }
 
 .tab-bar {
